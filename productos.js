@@ -1,4 +1,3 @@
-// Configuración de imágenes por producto
 const productos = {
     'gabardina': [
         'IMG/GABARDINA 01.jpg',
