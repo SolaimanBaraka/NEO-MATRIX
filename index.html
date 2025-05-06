@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figueres Products Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>NEO MATRIX</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Products</a></li>
+                <li><a href="nosotros.html">About Us</a></li>
+                <li><a href="contacto.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Neo Matrix</h2>
+                <p>Discover our selection of high-quality products</p>
+                <a href="productos.html" class="btn">View Products</a>
+            </div>
+        </section>
+
+        <section class="valores">
+            <h2>Our Values</h2>
+            <div class="valores-grid">
+                <div class="valor-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Quality</h3>
+                    <p>We offer only the best products</p>
+                </div>
+                <div class="valor-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Passion</h3>
+                    <p>We love what we do</p>
+                </div>
+                <div class="valor-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Customer Service</h3>
+                    <p>Your satisfaction is our priority</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="destacados">
+            <h2>Featured Products</h2>
+            <div class="productos-grid">
+                <div class="producto" data-product="gabardina">
+                    <img src="IMG/GABARDINA 01.jpg" alt="Premium Trench Coat">
+                    <div>
+                        <h3>Premium Trench Coat</h3>
+                        <p>High-quality trench coat with modern design</p>
+                        <p class="precio">From 199€</p>
+                    </div>
+                </div>
+                <div class="producto" data-product="fotos">
+                    <img src="IMG/FOTOS 01.jpg" alt="Photography Service">
+                    <div>
+                        <h3>Photography Service</h3>
+                        <p>Professional photo sessions</p>
+                        <p class="precio">From 149€</p>
+                    </div>
+                </div>
+                <div class="producto" data-product="consola">
+                    <img src="IMG/CONSOLA 01.jpg" alt="Gaming Console">
+                    <div>
+                        <h3>Gaming Console</h3>
+                        <p>Latest generation console</p>
+                        <p class="precio">From 499€</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonios">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonios-grid">
+                <div class="testimonio-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Excellent service and high-quality products. Highly recommended!"</p>
+                    <h4>Víctor Fernández</h4>
+                </div>
+                <div class="testimonio-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"The best store in Figueres. Great attention and variety of products."</p>
+                    <h4>Laura Martínez</h4>
+                </div>
+                <div class="testimonio-card">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Professional and friendly service. I will definitely come back."</p>
+                    <h4>Enrique Pastor</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Ready to Start Shopping?</h2>
+            <p>Visit our store or contact us for more information</p>
+            <a href="contacto.html" class="btn">Contact Us</a>
+        </section>
+
+        <section class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest products and offers</p>
+            <form id="newsletterForm">
+                <input type="email" placeholder="Your email" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close">&times;</button>
+            <img src="" alt="" id="lightbox-image">
+            <div class="lightbox-nav">
+                <button id="prev-image">&lt;</button>
+                <button id="next-image">&gt;</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-newsletter" class="popup-oculto">
+        <div class="popup-contenido">
+            <p>You have successfully subscribed</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-phone"></i> +34 91 123 45 67</p>
+                <p><i class="fas fa-envelope"></i> neomatrix@matrix.net</p>
+                <p><i class="fas fa-map-marker-alt"></i> Carrer Pelai Martínez, 1, 17600 Figueres, Girona</p>
+            </div>
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday to Friday: 9:00 - 18:00</p>
+                <p>Saturday: 10:00 - 14:00</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 NEO MATRIX. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html> 

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Figueres Products Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>FIGUERES PRODUCTS STORE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Products</a></li>
+                <li><a href="nosotros.html">About Us</a></li>
+                <li><a href="contacto.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Our Products</h2>
+                <p>Discover our selection of high-quality products</p>
+            </div>
+        </section>
+
+        <section class="productos-grid">
+            <div class="producto" data-product="gabardina">
+                <img src="IMG/GABARDINA 01.jpg" alt="Premium Trench Coat">
+                <h3>Premium Trench Coat</h3>
+                <p>High-quality trench coat with modern and resistant design</p>
+                <p class="precio">From 199€</p>
+            </div>
+            <div class="producto" data-product="fotos">
+                <img src="IMG/FOTOS 01.jpg" alt="Photography Service">
+                <h3>Photography Service</h3>
+                <p>Professional photo sessions for events and portraits</p>
+                <p class="precio">From 149€</p>
+            </div>
+            <div class="producto" data-product="consola">
+                <img src="IMG/CONSOLA 01.jpg" alt="Gaming Console">
+                <h3>Gaming Console</h3>
+                <p>Latest generation console with included accessories</p>
+                <p class="precio">From 499€</p>
+            </div>
+            <div class="producto" data-product="pistola">
+                <img src="IMG/PISTOLA 01.jpg" alt="Paintball Gun">
+                <h3>Paintball Gun</h3>
+                <p>Professional paintball equipment with accessories</p>
+                <p class="precio">From 299€</p>
+            </div>
+        </section>
+
+        <div class="lightbox" id="lightbox">
+            <div class="lightbox-content">
+                <button class="lightbox-close">&times;</button>
+                <img src="" alt="" id="lightbox-image">
+                <div class="lightbox-nav">
+                    <button id="prev-image">&lt;</button>
+                    <button id="next-image">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-phone"></i> +34 91 123 45 67</p>
+                <p><i class="fas fa-envelope"></i> matrixpageen@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Carrer Pelai Martínez, 1, 17600 Figueres, Girona</p>
+            </div>
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday to Friday: 9:00 - 18:00</p>
+                <p>Saturday: 10:00 - 14:00</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FIGUERES PRODUCTS STORE. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html> 

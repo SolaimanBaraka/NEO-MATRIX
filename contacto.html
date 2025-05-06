@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Figueres Products Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>FIGUERES PRODUCTS STORE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Products</a></li>
+                <li><a href="nosotros.html">About Us</a></li>
+                <li><a href="contacto.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contacto-hero" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('IMG/MATRIX.jpg'); background-size: cover; background-position: center; color: white;">
+            <div class="hero-content">
+                <h2>Contact Us</h2>
+                <p>We're here to help you</p>
+            </div>
+        </section>
+
+        <div class="contacto-grid">
+            <div class="contacto-info">
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address</h3>
+                    <p>Carrer Pelai Martínez, 1</p>
+                    <p>17600 Figueres, Girona</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+34 91 123 45 67</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>matrixpageen@gmail.com</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Opening Hours</h3>
+                    <p>Monday to Friday: 9:00 - 18:00</p>
+                    <p>Saturday: 10:00 - 14:00</p>
+                </div>
+            </div>
+
+            <div class="contacto-form">
+                <h2 style="margin-bottom: 2rem;">Send Us a Message</h2>
+                <form id="contactoForm" class="formulario-contacto">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="product-info">Product Information</option>
+                            <option value="order-status">Order Status</option>
+                            <option value="return">Return or Exchange</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-enviar">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <section class="mapa">
+            <h2>Our Location</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.1234567890123!2d2.961234567890123!3d42.26789012345678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bae1234567890%3A0x1234567890abcdef!2sCarrer%20Pelai%20Mart%C3%ADnez%2C%201%2C%2017600%20Figueres%2C%20Girona!5e0!3m2!1sen!2ses!4v1234567890!5m2!1sen!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-phone"></i> +34 91 123 45 67</p>
+                <p><i class="fas fa-envelope"></i> matrixpageen@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Carrer Pelai Martínez, 1, 17600 Figueres, Girona</p>
+            </div>
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday to Friday: 9:00 - 18:00</p>
+                <p>Saturday: 10:00 - 14:00</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/solaiman-baraka-300062280" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FIGUERES PRODUCTS STORE. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="contacto.js"></script>
+</body>
+</html> 
